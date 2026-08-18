@@ -1,0 +1,89 @@
+:root {
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  /* Theme Transitions */
+  --theme-transition: background-color 0.25s cubic-bezier(0.16, 1, 0.3, 1),
+                      border-color 0.25s cubic-bezier(0.16, 1, 0.3, 1),
+                      color 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* 🌙 Dark Mode (Default) */
+[data-theme='dark'] {
+  --bg-primary: #07090e;
+  --bg-secondary: #0d111a;
+  --bg-tertiary: #131926;
+  --bg-surface: #101622;
+  --bg-surface-hover: #172033;
+  --bg-glass: rgba(13, 17, 26, 0.85);
+  --bg-glass-card: rgba(16, 22, 34, 0.7);
+
+  --border-subtle: rgba(255, 255, 255, 0.07);
+  --border-default: rgba(255, 255, 255, 0.12);
+  --border-strong: rgba(255, 255, 255, 0.2);
+  --border-focus: #f97316;
+
+  --text-primary: #f8fafc;
+  --text-secondary: #94a3b8;
+  --text-tertiary: #64748b;
+  --text-muted: #475569;
+
+  --accent-primary: #f97316; /* Warm Amber/Orange */
+  --accent-primary-hover: #fb923c;
+  --accent-primary-glow: rgba(249, 115, 22, 0.25);
+  --accent-primary-subtle: rgba(249, 115, 22, 0.12);
+
+  --accent-cyan: #06b6d4;
+  --accent-cyan-glow: rgba(6, 182, 212, 0.2);
+  --accent-emerald: #10b981;
+  --accent-emerald-subtle: rgba(16, 185, 129, 0.12);
+  --accent-rose: #f43f5e;
+  --accent-rose-subtle: rgba(244, 63, 94, 0.12);
+
+  --card-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(255, 255, 255, 0.05);
+  --hero-glow: radial-gradient(circle 600px at 50% -100px, rgba(249, 115, 22, 0.15), rgba(6, 182, 212, 0.05), transparent 70%);
+  --grid-pattern: rgba(255, 255, 255, 0.03);
+
+  --code-bg: #07090e;
+  --code-text: #e2e8f0;
+}
+
+/* ☀️ Light Mode */
+[data-theme='light'] {
+  --bg-primary: #f8fafc;
+  --bg-secondary: #f1f5f9;
+  --bg-tertiary: #e2e8f0;
+  --bg-surface: #ffffff;
+  --bg-surface-hover: #f8fafc;
+  --bg-glass: rgba(248, 250, 252, 0.85);
+  --bg-glass-card: rgba(255, 255, 255, 0.9);
+
+  --border-subtle: rgba(0, 0, 0, 0.06);
+  --border-default: rgba(0, 0, 0, 0.1);
+  --border-strong: rgba(0, 0, 0, 0.18);
+  --border-focus: #ea580c;
+
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-tertiary: #64748b;
+  --text-muted: #94a3b8;
+
+  --accent-primary: #ea580c;
+  --accent-primary-hover: #c2410c;
+  --accent-primary-glow: rgba(234, 88, 12, 0.2);
+  --accent-primary-subtle: rgba(234, 88, 12, 0.08);
+
+  --accent-cyan: #0284c7;
+  --accent-cyan-glow: rgba(2, 132, 199, 0.15);
+  --accent-emerald: #059669;
+  --accent-emerald-subtle: rgba(5, 150, 105, 0.1);
+  --accent-rose: #e11d48;
+  --accent-rose-subtle: rgba(225, 29, 72, 0.1);
+
+  --card-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.08), 0 0 0 1px rgba(0, 0, 0, 0.06);
+  --hero-glow: radial-gradient(circle 600px at 50% -100px, rgba(234, 88, 12, 0.1), rgba(2, 132, 199, 0.04), transparent 70%);
+  --grid-pattern: rgba(0, 0, 0, 0.03);
+
+  --code-bg: #0f172a;
+  --code-text: #f8fafc;
+}
